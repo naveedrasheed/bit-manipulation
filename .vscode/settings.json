@@ -1,0 +1,80 @@
+{
+	"version": "2.0.0",
+	
+	// This is a user setting and not a workspace setting so it should be present
+	// in user settings.json.
+	// Depending on your platform, the user settings file is located here:
+	// Windows %APPDATA%\Code\User\settings.json
+	// Mac $HOME/Library/Application Support/Code/User/settings.json
+	// Linux $HOME/.config/Code/User/settings.json
+    "dev.containers.defaultExtensions": [
+		"ms-vscode.cpptools-extension-pack",
+		"ms-vscode.makefile-tools",
+		"ms-vscode.hexeditor",
+		"ms-python.python",
+		"ms-azuretools.vscode-docker",
+		"streetsidesoftware.code-spell-checker"
+	],
+	"files.associations": {
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "numbers": "cpp",
+        "ostream": "cpp",
+        "semaphore": "cpp",
+        "stdexcept": "cpp",
+        "stop_token": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "typeinfo": "cpp"
+    },
+	"cSpell.words": [
+        "brompton",
+        "LCOV"
+    ],
+    "cmake.sourceDirectory": "/workspaces/brompton/bit_manipulation"
+}

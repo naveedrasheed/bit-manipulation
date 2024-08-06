@@ -1,0 +1,54 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C++: cmake clean build bit_manipulation",
+            "command": "rm",
+            "args": [
+                "-rfd", "*", "&&",
+                "cmake", "-G", "Ninja", "-S", "../", "&&",
+                "cmake", "--build", ".", "--target astyle", "&&",
+                "ninja", "-j32"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Clean build C++ based bit_manipulation using cmake"
+        },
+        {
+            "type": "shell",
+            "label": "C++: bit_manipulation code coverage",
+            "command": "rm",
+            "args": [
+                "-rfd", "bit_manipulation/bit_manipulation_solution.out", "src_coverage.info", "coverage",
+                "CMakeFiles/bit_manipulation_solution.dir", "&&",
+                "ninja", "-j32", "&&",
+                "./bit_manipulation/bit_manipulation_solution.out", "&&",
+                "cmake", "--build", ".", "--target astyle", "&&",
+                "geninfo", "CMakeFiles/bit_manipulation_solution.dir", "-b",
+                "../bit_manipulation/src", "-o", "./src_coverage.info",
+                "--exclude", "*/usr/include/*", "&&",
+                "genhtml", "src_coverage.info", "-o", "coverage"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generat code coverage"
+        }
+    ],
+    "version": "2.0.0"
+}

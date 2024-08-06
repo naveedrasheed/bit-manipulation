@@ -1,0 +1,16 @@
+# ninja log v5
+29	91	0	CMakeFiles/astyle	6ccbf57a0270b3b7
+1595	2047	1722976428340017500	bit_manipulation/bit_manipulation_solution.out	90117ae8546fc05c
+81	1481	1722976427769157000	CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/tests/test_bit_manipulation.cpp.o	f16be816bdcf92a
+29	91	0	/workspaces/brompton/build/CMakeFiles/astyle	6ccbf57a0270b3b7
+77	1585	1722976427875689500	CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/src/bit_manipulation.cpp.o	16137c36b979145a
+23	69	0	CMakeFiles/astyle	6ccbf57a0270b3b7
+23	69	0	/workspaces/brompton/build/CMakeFiles/astyle	6ccbf57a0270b3b7
+31	1421	1722976754624760100	CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/tests/test_bit_manipulation.cpp.o	f16be816bdcf92a
+28	1501	1722976754702815500	CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/src/bit_manipulation.cpp.o	16137c36b979145a
+1509	1837	1722976755043710600	bit_manipulation/bit_manipulation_solution.out	90117ae8546fc05c
+41	1000	1722976827563523900	CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/tests/test_bit_manipulation.cpp.o	f16be816bdcf92a
+34	1027	1722976827607548900	CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/src/bit_manipulation.cpp.o	16137c36b979145a
+1033	1348	1722976827931095200	bit_manipulation/bit_manipulation_solution.out	90117ae8546fc05c
+44	81	0	CMakeFiles/astyle	6ccbf57a0270b3b7
+44	81	0	/workspaces/brompton/build/CMakeFiles/astyle	6ccbf57a0270b3b7

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/brompton/build",
+  "command": "/usr/bin/g++ -I/workspaces/brompton/bit_manipulation/include --coverage -Wall -Wextra -Werror -g3 -O0 -fsanitize=address -fsanitize=undefined -fsanitize=leak -fno-sanitize-recover=undefined -std=gnu++17 -o CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/src/bit_manipulation.cpp.o -c /workspaces/brompton/bit_manipulation/src/bit_manipulation.cpp",
+  "file": "/workspaces/brompton/bit_manipulation/src/bit_manipulation.cpp"
+},
+{
+  "directory": "/workspaces/brompton/build",
+  "command": "/usr/bin/g++ -I/workspaces/brompton/bit_manipulation/include --coverage -Wall -Wextra -Werror -g3 -O0 -fsanitize=address -fsanitize=undefined -fsanitize=leak -fno-sanitize-recover=undefined -std=gnu++17 -o CMakeFiles/bit_manipulation_solution.dir/bit_manipulation/tests/test_bit_manipulation.cpp.o -c /workspaces/brompton/bit_manipulation/tests/test_bit_manipulation.cpp",
+  "file": "/workspaces/brompton/bit_manipulation/tests/test_bit_manipulation.cpp"
+}
+]

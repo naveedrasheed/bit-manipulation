@@ -1,0 +1,4 @@
+/workspaces/brompton/build/CMakeFiles/bit_manipulation_solution.dir
+/workspaces/brompton/build/CMakeFiles/astyle.dir
+/workspaces/brompton/build/CMakeFiles/edit_cache.dir
+/workspaces/brompton/build/CMakeFiles/rebuild_cache.dir

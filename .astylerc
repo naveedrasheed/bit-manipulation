@@ -1,0 +1,17 @@
+--suffix=none
+--style=allman  # Use the Allman style (you can choose your preferred style)
+#--indent=spaces=4  # Use 4 spaces for indentation (adjust to your preference)
+--indent-namespaces  # Indent the contents of namespaces
+#--indent-modifiers
+#--indent-after-parens  # Indent after parentheses (optional)
+#--indent-col1-comments  # Indent comments in column 1
+#--indent-continuation=0
+--indent-switches
+--indent-labels
+--align-pointer=type
+--align-reference=type
+--pad-comma
+--pad-paren-in
+--pad-header
+#--max-code-length = 100
+#--delete-empty-lines

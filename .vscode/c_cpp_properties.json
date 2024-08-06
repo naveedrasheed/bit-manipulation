@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "CMake",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/bit_manipulation/include"
+            ]
+        }
+    ],
+    "version": 4
+}
